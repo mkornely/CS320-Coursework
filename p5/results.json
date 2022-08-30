@@ -1,0 +1,28 @@
+{
+  "score": 100.0,
+  "tests": [
+    {
+      "test": "ip_check",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "region",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "zipcode",
+      "points": 25.0,
+      "possible": 25
+    },
+    {
+      "test": "geo",
+      "points": 25,
+      "possible": 25
+    }
+  ],
+  "lint": [],
+  "date": "11/23/2021",
+  "latency": 20.705127000808716
+}

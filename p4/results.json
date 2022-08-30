@@ -1,0 +1,43 @@
+{
+  "score": 100.0,
+  "tests": [
+    {
+      "test": "has_pages",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "has_links",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "browse",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "email",
+      "points": 14,
+      "possible": 14
+    },
+    {
+      "test": "ab_test",
+      "points": 25,
+      "possible": 25
+    },
+    {
+      "test": "robo_test",
+      "points": 5,
+      "possible": 5
+    },
+    {
+      "test": "dashboard_examples",
+      "points": 20,
+      "possible": 20
+    }
+  ],
+  "lint": [],
+  "date": "11/07/2021",
+  "latency": 2.5107998847961426
+}

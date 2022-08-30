@@ -1,0 +1,58 @@
+{
+  "score": 100.0,
+  "tests": [
+    {
+      "test": "testReader",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "testLoan",
+      "points": 16,
+      "possible": 16
+    },
+    {
+      "test": "testBank",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "testBankNames",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "testSimplePredictor",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "testDTreeNodeCount1",
+      "points": 1,
+      "possible": 1
+    },
+    {
+      "test": "testDTreeNodeCount2",
+      "points": 16,
+      "possible": 16
+    },
+    {
+      "test": "testDTreePredict",
+      "points": 16,
+      "possible": 16
+    },
+    {
+      "test": "testBias",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "testBiasLargeFile",
+      "points": 3,
+      "possible": 3
+    }
+  ],
+  "lint": [],
+  "date": "10/11/2021",
+  "latency": 2.7683863639831543
+}

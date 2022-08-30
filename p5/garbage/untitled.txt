@@ -1,0 +1,56 @@
+
+        
+#         int_ip= df.loc[i]['ip']
+#         currentrow=lookup_df.loc[index]
+        
+#         if(int_ip>currentrow['low'] and int_ip<currentrow['high']):
+#             df.loc[i]['region']=lookup_df.loc[rowindex]['region']
+                    
+#         else:    
+#             if(int_ip<currentrow['low']):
+#                 for rowindex in range(index,0,-1):
+#                     if(int_ip>lookup_df.loc[rowindex]['low'] and int_ip<lookup_df.loc[rowindex]['high']):
+#                         df.at[i,'region']=lookup_df.at[rowindex,'region']
+#                         index=rowindex
+#                         break; 
+
+#             elif(int_ip>currentrow['high']):
+#                 for rowindex in range(index, df_length):
+#                     if(int_ip>lookup_df.loc[rowindex]['low'] and int_ip<lookup_df.loc[rowindex]['high']):
+#                         df.at[i,'region']=lookup_df.at[rowindex,'region']
+#                         index=rowindex
+#                         break; 
+        
+        
+        
+        
+        
+               
+#         #previous searched index to seperate df in half
+#         if(i<lookup_df.loc[index]['low']):
+#             first = 0
+#             last = index
+        
+#         else:
+#             first=index
+#             last=df_length-1
+        
+#         found = False
+#         int_ip= df.loc[i]['ip']
+
+#         #binary search 
+#         while( first<=last and not found):
+#             mid = int((first + last)/2)
+#             low=lookup_df.loc[mid]['low']
+#             high=lookup_df.loc[mid]['high']
+           
+#             if int_ip>low and int_ip<high:
+#                 found = True
+#             else:
+#                 if int_ip<low:
+#                     last = mid - 1
+#                 else:
+#                     first = mid + 1	
+                    
+                    
+                    
